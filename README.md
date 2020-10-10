@@ -32,6 +32,8 @@ Access workshop clusters via this link: https://tkn-openshift.mybluemix.net/
 
 Password will be provided in the workshop.
 
+You will use the OpenShift CLI (oc). Please download it from here: https://mirror.openshift.com/pub/openshift-v4/clients/oc/4.4/
+
 You will also use the Tekton CLI (`tkn`) through out this tutorial. Download the Tekton CLI by following [instructions](https://github.com/tektoncd/cli#installing-tkn) available on the CLI GitHub repository.
 
 ## Concepts
