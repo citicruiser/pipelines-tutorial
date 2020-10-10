@@ -97,6 +97,15 @@ OpenShift Pipelines is provided as an add-on on top of OpenShift that can be ins
 
 ![OpenShift OperatorHub](docs/images/operatorhub.png)
 
+## Fix Buildah ClusterTask for IBM Cloud VFS
+
+Add '--storage-driver=vfs'  to two places in the Buildah ClusterTask YAML file.
+
+![ClusterTasks](buildah-clusterTasks.PNG)
+![Change 1](buildah-change-1.png)
+![Change 2](buildah-change-2.png)
+
+
 ## Deploy Sample Application
 
 Create a project for the sample application that you will be using in this tutorial:
