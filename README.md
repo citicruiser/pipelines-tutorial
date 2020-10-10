@@ -442,10 +442,7 @@ ui-image    image   url: image-registry.openshift-image-registry.svc:5000/pipeli
 A `PipelineRun` is how you can start a pipeline and tie it to the git and image resources that should be used for this specific invocation. You can start the pipeline using `tkn`:
 
 ```bash
-$ tkn pipeline start build-and-deploy \
-    -r git-repo=api-repo \
-    -r image=api-image \
-    -p deployment-name=vote-api
+$ tkn pipeline start build-and-deploy -r git-repo=api-repo -r image=api-image -p deployment-name=vote-api
 
 Pipelinerun started: build-and-deploy-run-z2rz8
 
@@ -454,10 +451,7 @@ tkn pipelinerun logs build-and-deploy-run-z2rz8 -f -n pipelines-tutorial
 ```
 
 ```bash
-$ tkn pipeline start build-and-deploy \
-    -r git-repo=ui-repo \
-    -r image=ui-image \
-    -p deployment-name=vote-ui
+$ tkn pipeline start build-and-deploy -r git-repo=ui-repo -r image=ui-image -p deployment-name=vote-ui
 
 Pipelinerun started: build-and-deploy-run-xy7rw
 
