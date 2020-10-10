@@ -524,12 +524,6 @@ Whenever there is any change to your repository we need to start pipeline explic
 
 Triggers in conjuntion with pipelines enable us to hook our Pipelines to respond to external github events (push events, pull requests etc).
 
-## Prerequisites
-
-You need an latest OpenShift 4 cluster running on AWS in order to complete this tutorial. If you don't have an existing cluster, go to http://try.openshift.com and register for free in order to get an OpenShift 4 cluster up and running on AWS within minutes.
-
->***NOTE:*** Running cluster localy [crc](https://github.com/code-ready/crc/releases) won't work, as we need `webhook-url` to be accessable to `github-repos`
-
 ### Adding Triggers to our Application:
 
 Now let’s add a TriggerTemplate, TriggerBinding, and an EventListener to our project.
