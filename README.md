@@ -26,7 +26,9 @@ In this tutorial you will:
 
 ## Prerequisites
 
-Register for a free IBM Cloud Account: https://ibm.biz/Bdq3uU 
+Register for a free IBM Cloud Account: 
+
+https://cloud.ibm.com/registration?cm_mmc=Inpersondirected-_-Audience+Developer_Developer+Conversation-_-WW_WW-_-Oct2020-tektoncicdpipelinesonopenshift-eventid-5f73046c49308b1617f9def0-global-devadvgrp-dubai-hybrid-webinar-online_ov75915&cm_mmca1=000039JL&cm_mmca2=10010797&eventid=5f73046c49308b1617f9def0
 
 Access workshop clusters via this link: https://tkn-openshift.mybluemix.net/
 
