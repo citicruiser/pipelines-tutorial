@@ -26,7 +26,9 @@ In this tutorial you will:
 
 ## Prerequisites
 
-You need an OpenShift 4 cluster in order to complete this tutorial. If you don't have an existing cluster, go to http://try.openshift.com and register for free in order to get an OpenShift 4 cluster up and running on AWS within minutes.
+Register for a free IBM Cloud Account: https://ibm.biz/Bdq3uU 
+
+Access workshop clusters via this link: https://tkn-openshift.mybluemix.net/
 
 You will also use the Tekton CLI (`tkn`) through out this tutorial. Download the Tekton CLI by following [instructions](https://github.com/tektoncd/cli#installing-tkn) available on the CLI GitHub repository.
 
@@ -59,6 +61,7 @@ the resources (notably,
 [PipelineRuns](https://github.com/tektoncd/pipeline/blob/master/docs/pipelineruns.md)
 and
 [PipelineResources](https://github.com/tektoncd/pipeline/blob/master/docs/resources.md#pipelineresources))
+
 that encapsulate these configurations dynamically. Triggers extends the Tekton
 architecture with the following CRDs:
 
