@@ -30,6 +30,8 @@ Register for a free IBM Cloud Account: https://ibm.biz/Bdq3uU
 
 Access workshop clusters via this link: https://tkn-openshift.mybluemix.net/
 
+Password will be provided in the workshop.
+
 You will also use the Tekton CLI (`tkn`) through out this tutorial. Download the Tekton CLI by following [instructions](https://github.com/tektoncd/cli#installing-tkn) available on the CLI GitHub repository.
 
 ## Concepts
