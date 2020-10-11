@@ -7,7 +7,7 @@ spec:
   type: git
   params:
   - name: url
-    value: http://github.com/karimdeif/vote-api.git
+    value: http://github.com/citicruiser/vote-api.git
   - name: revision
     value: release-tech-preview-1
 ---
@@ -29,7 +29,7 @@ spec:
   type: git
   params:
   - name: url
-    value: http://github.com/karimdeif/vote-ui.git
+    value: http://github.com/citicruiser/vote-ui.git
   - name: revision
     value: release-tech-preview-1
 ---
