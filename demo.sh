@@ -18,6 +18,7 @@ info() {
     _log "\nINFO" "$@"
 }
 
+
 err() {
     local code=$1; shift
     local msg="$@"; shift
